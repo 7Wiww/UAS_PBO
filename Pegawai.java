@@ -1,5 +1,13 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
 package UAS_PBO_Kel1;
 
+/**
+ *
+ * @author mnawa
+ */
 import java.text.DecimalFormat;
 
 public abstract class Pegawai {
@@ -17,7 +25,7 @@ public abstract class Pegawai {
 
     public void setNama(String nama) {
         this.nama = nama;
-    }
+    }   
 
     public void setJabatan(String jabatan) {
         this.jabatan = jabatan;
@@ -44,7 +52,7 @@ public abstract class Pegawai {
         System.out.println("NIP        : " + nip);
         System.out.println("Nama       : " + nama);
         System.out.println("Jabatan    : " + jabatan);
-        System.out.println("Gaji Bersih: " + df.format(gajiPokok));
+        System.out.println("Gaji Pokok : " + df.format(gajiPokok));
         System.out.println("Gaji Bersih: " + df.format(hitungGaji()));
         System.out.println("----------------------------");
         System.out.println();
