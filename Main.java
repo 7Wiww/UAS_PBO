@@ -1,5 +1,13 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
 package UAS_PBO_Kel1;
 
+/**
+ *
+ * @author mnawa
+ */
 import java.util.Scanner;
 import java.util.InputMismatchException;
 
@@ -13,8 +21,8 @@ public class Main {
         do {
             System.out.println("=== SISTEM MANAJEMEN PEGAWAI MA'SOEM MART ===");
             System.out.println("1. Tambah Pegawai Tetap");
-            System.out.println("2. Tambah Pegawai Kontrak");
-            System.out.println("3. Tampil Data Pegawai");
+            System.out.println("2. Tambah Pegawai Kontrak");     
+            System.out.println("3. Tampilkan Data Pegawai");
             System.out.println("4. Update Data Pegawai");
             System.out.println("5. Hapus Data Pegawai");
             System.out.println("6. Keluar");
